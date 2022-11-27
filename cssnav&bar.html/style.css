@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+.nav_bar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width:300px;
+    background-color: purple;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav_bar li{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav_bar li:hover{
+    background #ddd;
+    color:red
+}
+p{
+    margin-top: 310px;
+    padding: 16px;
+    height: 1000px;
+}

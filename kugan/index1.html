@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <meta name="description" content="Class about Form and validation" />
+    <title>Forms and validation</title>
+</head>
+
+<body>
+    <h2>Regestation forms</h2>
+    <form action="./result.html" method="get" enctype="multipart/form-data">
+        <fieldset>
+            <legend>General information</legend>
+            <div class="form-filed">
+                <lable for="Fname">NAME</lable>
+                <input name="name" type="name" id="fname" placeholder="Entre the name" required
+                    maxlength="15" /><br><br>
+            </div>
+            <div class="form-field">
+                <label for="Fage">AGE</label>
+                <input name="AGE" type="age" id="Fage" placeholder="Enter the age" required max="100" min="0"
+                    step="10" /><br><br>
+            </div>
+            <div class="form-field">
+                <label for="Fdob">DATE OF BIRTH</label>
+                <input name="date of birth" type="date" id="Fdob" required max="2022-11-01" min="1970-11-10" />
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Addtional information</legend>
+            <div class="form-field">
+                <label for="femail">EMAIL</label>
+                <input name="email" type="email" id="femail" required /><br><br>
+            </div>
+            <div class="form-field">
+                <lable for="vehicle1">I HAVE A BIKE</lable>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="BIKE" /><br><br>
+            </div>
+            <div class="form-field">
+                <label for="vehicle2">I HAVE CAR</label>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="CAR" /><br><br>
+            </div>
+            <div class="form-field">
+                <label><b>MARRIED DETAILS</b></label><br>
+                <div>
+                    <label for="married">MARRIED</label>
+                    <input type="radio" name="married" id="married" value="married" /><br><br>
+                </div>
+                <div>
+                    <label for="unmarried">UNMARRIED</label>
+                    <input type="radio" name="unmarried" id="unmarried" value="unmarried" /><br><br>
+                </div>
+                <div>
+                    <label for="fav-color"><b>Favourite color</b></label>
+                    <input name="fav-color" type="color" /><br><br>
+                </div>
+                <div>
+                    <label for="phno"><b>PHONE NO</b></label>
+                    <input type="tel" name="phno" id="phno"/>
+                    </div>
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Other informaton</legend>
+            <div>
+                <lable for="url">URL</lable>
+                <input type="url" name="url" id="url"/><br><br>
+                </div>
+                <div>
+                    <label for="pswrd">PASSWORD</label>
+                    <input type="password" name="pswrd" id="pswrd"/>
+                    </div>
+                    </fieldset>
+                    <fieldset>
+                        <lengend>DESCRIPTION</lengend>
+                        <div>
+                            <label for="bio">FEEDBACK</label>
+                            <textarea></textarea>
+                            </div>
+                            </fieldset>
+                    <div>
+                        <input type="reset" name="reset"/><br><br>
+                        </div>
+                        <div>
+                            <input type="submit" name="submit"/>
+                            </div>
+
+
+
+
+</body>
+
+</html>

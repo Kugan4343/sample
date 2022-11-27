@@ -1,0 +1,8 @@
+.box{
+    height: 200px;
+    width: 300px;
+    background:linear-gradient(105.1deg , red 0%,blue 100%);
+}
+.text_shadow{
+    text-shadow: -2px -2px 3px tomato;
+}

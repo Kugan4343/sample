@@ -1,0 +1,17 @@
+.color {
+    background: url("kugan.jpg") no-repeat scroll;
+    color: rgb(0,250,0);
+    border: 2px solid #000;
+    background-clip: content-box;
+    max-width: 600PX;
+    max-height: 340px;
+    text-decoration: underline;
+}
+.hithere2 {
+    font-size:top;
+    font-weight: bold;
+    font-family: 'sona','Courier New', Courier, monospace:
+    text- align : right";
+    text-decoration:underline;
+
+}
